@@ -1,0 +1,55 @@
+{
+    "drones": [
+        {
+            "id": 1,
+            "name": "Inspire 2 X5S",
+            "isFavorite": true
+        },
+        {
+            "id": 2,
+            "name": "Mi Drone (4k)",
+            "isFavorite": false
+        },
+        {
+            "id": 3,
+            "name": "AOSENMA AOS-CG033",
+            "isFavorite": true
+        },
+        {
+            "id": 4,
+            "name": "Funsnap iDol Xiaomi",
+            "isFavorite": false
+        },
+        {
+            "id": 5,
+            "name": "Funsnap iDol Xiaomi",
+            "isFavorite": false
+        }
+    ],
+    "flightPlans": [
+        {
+            "id": 1,
+            "description": "Разведка над технопарком",
+            "status": "initial",
+            "drones": [1, 2, 4]
+        },
+        {
+            "id": 2,
+            "description": "Доставка груза в Казань",
+            "status": "initial",
+            "drones": [1, 2, 3, 4]
+        },
+        {
+            "id": 3,
+            "description": "Тестовый план на 12км",
+            "status": "initial",
+            "drones": []
+        },
+        {
+            "id": 4,
+            "description": "Перевозка OZON №12-330",
+            "status": "initial",
+            "drones": [2]
+        }
+    ]
+}

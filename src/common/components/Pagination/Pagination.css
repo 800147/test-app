@@ -1,0 +1,7 @@
+.Pagination-Page {
+    margin: 0 16px;
+}
+
+.Pagination-Link_disabled {
+    color: gray;
+}

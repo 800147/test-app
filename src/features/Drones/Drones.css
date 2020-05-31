@@ -1,0 +1,25 @@
+.Drones-Filters {
+    margin-top: 8px;
+    text-align: right;
+}
+
+.Drones-Drone {
+    margin-top: 8px;
+}
+
+.Drones-Error {
+    margin-top: 8px;
+}
+
+.Drones-Empty {
+    margin-top: 8px;
+    text-align: center;
+    color: grey;
+}
+
+.Drones-Footer {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

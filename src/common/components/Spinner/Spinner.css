@@ -1,0 +1,26 @@
+.Spinner {
+    position: absolute;
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+    top: calc(50% - var(--size) / 2);
+    left: calc(50% - var(--size) / 2);
+    animation-duration: 0.5s;
+    animation-name: appear;
+    z-index: 1;
+}
+
+/* Не показываем спиннер сразу. Если загрузка идёт меньше полусекунды, спиннер не появится */
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

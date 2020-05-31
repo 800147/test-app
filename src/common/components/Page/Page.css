@@ -1,0 +1,26 @@
+.Page {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.Page-Navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Page-Title {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-left: 8px;
+}
+
+.Page-Content {
+    position: relative;
+    min-height: 100px;
+}
+
+.Page-Spinner ~ * {
+    pointer-events: none;
+}

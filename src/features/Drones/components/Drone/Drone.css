@@ -1,0 +1,13 @@
+.Drone-DeleteButton.p-button {
+    margin-left: 8px;
+}
+
+.Drone-Id {
+    display: inline-block;
+    min-width: 16px;
+    text-align: right;
+}
+
+.Drone-Name {
+    margin-left: 16px;
+}
